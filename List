@@ -1,0 +1,7 @@
+n = [1,2,88,42,99]
+for i in n:
+    if i == 42:
+        x = n.index(i)
+z = sorted(n[:x])
+for j in z:
+    print(j)
